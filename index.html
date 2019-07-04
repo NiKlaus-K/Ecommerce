@@ -4,73 +4,84 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Ecommerce</title>
+		<link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
 		<!-- 引入jQuery，如果要使用Bootstrap的JS插件，必须引入jQuery -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<!-- 引入Bootstrap -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-		 crossorigin="anonymous">
-
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		 crossorigin="anonymous"> -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
 		<!-- 引入Vue -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="index.html">Ecommerce</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<a class="navbar-brand" href="index.html">Ecommerce </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<div class="collapse navbar-collapse" id="navbarColor01">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">商品列表<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">商品列表</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">购物车</a>
 					</li>
-					<!-- <li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-						 aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
+					<li class="nav-item dropdown ">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">个人中心</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
+							<div>
+								<a class="dropdown-item" href="#"><span class="iconfont icon-icon-test12"></span>&nbsp;基本设置</a>
+							</div>
+							<div>
+								<a class="dropdown-item" href="#"><span class="iconfont icon-icon-test25"></span>&nbsp;账户中心</a>
+							</div>
+							<div>
+								<a class="dropdown-item" href="#"><span class="iconfont icon-icon-test37"></span>&nbsp;关于</a>
+							</div>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
+							<div>
+								<a class="dropdown-item" href="#"><span class="iconfont icon-icon-test32"></span>&nbsp;注销</a>
+							</div>
 						</div>
-					</li> -->
-					<!-- <li class="nav-item">
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-					</li> -->
+					</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="搜索" aria-label="搜索">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+					<input class="form-control mr-sm-4" type="text" placeholder="Search">
+					<button class="btn btn-secondary my-2 my-sm-2" type="submit">Search</button>
+					<!-- <div id="icon">
+						<span class="iconfont icon-icon-test25 btn my-sm-0"></span>
+					</div> -->
 				</form>
 			</div>
-			
 		</nav>
 		<div class="container">
-		
-			
+
+
 			<div id="app" class="">
 				<!-- <h1>Your input is {{ message }}</h1>
 				<input type="text" v-model="message" class="input" />
 				<input type="" class="disabled" name="" id="" value="" /> -->
 				<div style="height: 20px;">
-					
+
 				</div>
-				<h1 class="text-center" >商品列表</h1>		
-				
-				
-				
-			
-			
-			
+				<h1 class="text-center">商品列表</h1>
+
+
+
+
+
+
 			</div>
-		
+
 		</div>
+		<!-- 引入main.js -->
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 		<!-- 引入Bootstrap -->
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

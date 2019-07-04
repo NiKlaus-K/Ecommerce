@@ -1,0 +1,12 @@
+a.dropdown-item span{
+	font-size: 18px;
+}
+
+div.dropdown-item :hover{
+	color: #FFFFFF;
+}
+
+h1{
+	font-size: 38px;
+	/* font-weight: bold; */
+}
